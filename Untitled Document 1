@@ -1,0 +1,13 @@
+1. criacao de pasta desktop/data
+2. colar raw/color
+3. docker run -it tensorflow/tensorflow:1.1.0 bash
+4. criacao de pasta de projecto: chamada PlantDiseaseAnalizer
+5. criar pasta dentro da nova pasta, chamada tf_files
+6. docker run -it --volume ${HOME}/DesktopPlantDiseaseAnalizer/tf_files:/tf_files --workdir /tf_files --publish 6006:6006 tensorflow/tensorflow:1.1.0 bash
+7. colar fotos dentro da pasta tf_files, por exemplo: dentro de nova pasta chamada "data".
+Ou seja, eu passo a ter PlantDiseaseAnalizer/tf_files/data/{N Pastas com fotos N fotos cada pasta}
+
+
+
+
+
