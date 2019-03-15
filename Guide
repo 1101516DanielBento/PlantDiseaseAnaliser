@@ -54,5 +54,8 @@ python retrain.py --bottleneck_dir=/tf_files/bottlenecks --how_many_training_ste
 (https://github.com/llSourcell/tensorflow_image_classifier/tree/master/src)
 
 
+OBS: doencas propostas no relatorio: Maça; Milho; Tomate; Batata
+
+
 
 
